@@ -1,7 +1,7 @@
-```batch
+
 ## General information
 
-Contains the developed functions used in data analysis to optimized the code or make it simpler.
+This folder contains the developed functions used in data analysis to optimized the code or make it simpler.
 
 
 ## Functions
@@ -19,5 +19,4 @@ A brief description of the use and purpose of each function is presented:
     
 - **plot_standar_deviation.m:** Calculate the standard deviation of the DataFrame and plot it using a bar plot per each electrical variable and putting the label in function of the variables generating three different figures. It uses commands and funcionts of Matlab called std, barXEndPoints, YEndPoints, xlabel, ylabel, text and title. Go to the function documentation for more details.
 
-It is recommended to review the documentation of the functions to know the input attributes and their mechanism of use in the function.
-```
+>Note: It is recommended to review the documentation of the functions to know the input attributes and their mechanism of use in the function.
