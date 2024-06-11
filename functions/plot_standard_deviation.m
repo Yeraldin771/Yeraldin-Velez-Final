@@ -3,13 +3,17 @@ function plot_standard_deviation(Solar_Cell, variables, labels)
 % 
 % This function allows you to enter a dataframe, calculate the 
 % standard deviation of the electrical variables and display 
-% them in bar graphs.
+% them in bar graphs using POO based on the commands std and bar
+% of Matlab.
 %
-% Solar_Cell: It is the DataFrame to calculate the standard deviation.
-% variables: It allows to define the columns that will be used to calculate
+% Solar_Cell: Enter a DataFrame to calculate the standard deviation.
+% variables: Enter the columns os the DataFrame that will be used to calculate
 % the mean.
-% labels: It describes the electrical variable name and the units used to
-% plot.
+% labels: Enter the electrical variable name and the units used to
+% plot the mean.
+%
+% For example: plot_standard_deviation(DataFrame, {8:10}, {'PCE [%]'})
+
     % Calcular la desviación estándar de las variables seleccionadas
     Cells_Number = [1,2,3];
     

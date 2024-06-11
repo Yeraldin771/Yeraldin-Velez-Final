@@ -1,7 +1,8 @@
 function plot_cell(thickness, PCE, cell_num)
-% Plot thickness versus energy efficiency (PCE) 
+% Plot thickness versus energy efficiency (PCE).
+%
 % This function generates a graph of cell thickness 
-% versus efficiency with labels and title. 
+% versus efficiency with labels and title using the command plot of Matlab. 
 % 
 % Inputs: 
 % thickness: Enter a numeric array with the thickness variation range. 

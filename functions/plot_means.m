@@ -1,13 +1,17 @@
 function plot_means(Solar_Cell, variables, labels)
-% Function to plot mean of DataFrame columns
-% This function allows you to en dataframe, calcter aulate the average 
-% of the electrical variables and display them in bar graphs.
+% Function to plot mean of DataFrame columns.
 %
-% Solar_Cell: It is the DataFrame to calculate the mean
-% variables: It allows to define the columns that will be used to calculate
+% This function allows you to enter a DataFrame, calculate the mean 
+% of the electrical variables and display them in bar graphs using the
+% commands mean and bar of Matlab.
+%
+% Solar_Cell: Enter the DataFrame to calculate the mean
+% variables: Enter the columns range that will be used to calculate
 % the mean.
-% labels: It describes the electrical variable name and the units used to
+% labels: Enter the electrical variable name and the units used to
 % plot
+%
+% For example: plot_mean(DataFrame, {2:4}, {'Jsc [mA/cm^2]'})
 
     Mean = mean(Solar_Cell);
 
