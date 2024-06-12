@@ -62,9 +62,14 @@ In this project, an analysis on the variation of absorber layer thickness in thr
 ## References
 
 [1] Run COMSOL Multiphysics® Simulations with MATLAB®. Available on: https://www.comsol.com/livelink-for-matlab.
+
 [2] Minbashi, M., & Yazdani, E. (2022). Comprehensive study of anomalous hysteresis behavior in perovskite-based solar cells. Scientific Reports, 12(1). https://doi.org/10.1038/s41598-022-19194-5
+
 [3] Ouslimane, T., Et-taya, L., Elmaimouni, L., & Benami, A. (2021). Impact of absorber layer thickness, defect density, and operating temperature on the performance of MAPbI3 solar cells based on ZnO electron transporting material. Heliyon, 7(3), e06379. https://doi.org/10.1016/j.heliyon.2021.e06379
+
 [4] Vélez, J., Sepúlveda, F., Botero, M., Otalora, C., & Camacho, C. (2023). Absorber layer thickness as a new feature in statistical learning tools of Perovskite solar cells. Journal of Applied Research and Technology, 21, 858–865. https://doi.org/10.22201/ICAT.24486736E.2023.21.5.2057
+
 [5] Vivek B., Praveen K., Deepak B., Shashi K., Michał J., Radomir G., Zbigniew L. (2023). Numerical Investigation of Power Conversion Efficiency of Sustainable Perovskite Solar Cells. Electronics, 12, 1762. http://dx.doi.org/10.3390/electronics12081762
+
 [6] Montoya, I., Cortina, H., Ruíz, M., Hechavarría, L., Sánchez, F., Courel, M., & Hu, H. (2020). Optimization of CH3NH3PbI3 perovskite solar cells: A theoretical and experimental study. Solar Energy, 199, 198-205.
 http://dx.doi.org/10.1016/j.solener.2020.02.026
