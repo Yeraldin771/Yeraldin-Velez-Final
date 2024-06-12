@@ -39,6 +39,51 @@ This methodological approach allowed a clear and detailed understanding of the i
 
 ## How to run the proyect?
 
+The directory structure, its folders and files are shown below. This is important, as it allows visualizing the data distribution and illustrates to the reader how to access the different data and analyses available in the project:
+
+```bash
+C:.
+|   example.m
+|   output.txt
+|   README.md
+|   requirements.txt
+|   
++---data
+|       DataFrame.mat
+|       Jsc_Cell1.mat
+|       Jsc_Cell2.mat
+|       Jsc_Cell3.mat
+|       PCE_Cell1.mat
+|       PCE_Cell2.mat
+|       PCE_Cell3.mat
+|       README.md
+|       thickness_Cell1.mat
+|       Voc_Cell1.mat
+|       Voc_Cell2.mat
+|       Voc_Cell3.mat
+|       
++---functions
+|       calculate_RMS.m
+|       plot_cell.m
+|       plot_means.m
+|       plot_standard_deviation.m
+|       README.md
+|       
+\---results
+        Box and whisker chart.png
+        Mean of Jsc.png
+        Mean of PCE.png
+        Mean of Voc.png
+        README.md
+        Standard deviation of Jsc.png
+        Standard deviation of PCE.png
+        Standard deviation of Voc.png
+        Thickness vs PCE for Cell1.png
+        Thickness vs PCE for Cell2.png
+        Thickness vs PCE for Cell3.png
+``` 
+
+
 In order to perform a statistical analysis of the data and to make use of the functions, the following steps must be followed:
 
 1. First you must download the project, if you have git downloaded on your computer. You must open the path where you want to save the repository and execute the following code:
