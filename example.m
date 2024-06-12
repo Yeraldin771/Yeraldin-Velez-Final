@@ -7,11 +7,11 @@ pwd
 
 % Create route of work with the proyect folder and get DataFrame
 % information
-ruta_df = fullfile(pwd, 'Yeraldin-Velez-Final', 'data','DataFrame.mat');
+ruta_df = fullfile(pwd, 'data','DataFrame.mat');
 load(ruta_df);
 
 % Import the functions path 
-ruta_funciones = fullfile(pwd, 'Yeraldin-Velez-Final', 'functions');
+ruta_funciones = fullfile(pwd, 'functions');
 addpath(ruta_funciones)
 
 % calculate rms of PCE
@@ -31,14 +31,8 @@ plot_standard_deviation(Solar_Cell, {8:10}, {'PCE [%]'})
 
 % Load the box and whisker chart 
 
-ruta_imagen = fullfile(pwd, 'Yeraldin-Velez-Final', 'results', 'Box and whisker chart.png');
+ruta_imagen = fullfile(pwd, 'results', 'Box and whisker chart.png');
 
 BandW = imread(ruta_imagen);
 imshow(BandW)
-
-
-
-
-
-
 
