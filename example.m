@@ -1,17 +1,13 @@
 clc
 clear all
 
-% Load repository
-repo = gitclone("https://github.com/Yeraldin771/Yeraldin-Velez-Final.git");
-
-
 % Load work route
 disp('Your work path is: ')
 pwd
 
 % Create route of work with the proyect folder and get DataFrame
 % information
-ruta_df = fullfile(pwd, 'Yeraldin-Velez-Final', 'data', 'raw','DataFrame.mat');
+ruta_df = fullfile(pwd, 'Yeraldin-Velez-Final', 'data','DataFrame.mat');
 load(ruta_df);
 
 % Import the functions path 
