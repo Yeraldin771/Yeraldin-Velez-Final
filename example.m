@@ -1,10 +1,6 @@
 clc
 clear all
 
-% Load repository
-repo = gitclone("https://github.com/Yeraldin771/Yeraldin-Velez-Final.git");
-
-
 % Load work route
 disp('Your work path is: ')
 pwd
